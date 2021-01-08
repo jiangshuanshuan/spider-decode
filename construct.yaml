@@ -1,0 +1,21 @@
+name: spider-decode
+version: 0.1
+install_in_dependency_order: True
+ignore_duplicate_files: True
+keep_pkgs: True
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+conda_default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+specs:
+  - python 3.7*
+  - conda
+  - numpy
+  - requests-html
+  - demjson
+  - requests
+  - fire
+  - fiona
+
